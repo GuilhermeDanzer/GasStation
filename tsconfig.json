@@ -2,5 +2,9 @@
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
     "strict": true
-  }
+  },
+  "include": [
+    "src/**/*",
+    "types.d.ts" // or "types/**/*.d.ts" if in a types folder
+  ]
 }
